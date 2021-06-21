@@ -1,4 +1,4 @@
-Binus Int'l 2023 Semester 4 Webdev Project
+Binus University Int'l 2023 Semester 4 Webdev Project
 
 Mikabook.js
 Lightweight Social Media App
