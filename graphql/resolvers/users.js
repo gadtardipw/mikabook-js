@@ -7,6 +7,7 @@ const { SECRET_KEY } = require('../../config'); // SECRET KEY
 const User = require("../../models/User");
 
 //res is response/result
+//most testing done on graphql playground
 
 function generateToken(user){ // jwt tokden generator
     return jwt.sign(
@@ -22,7 +23,7 @@ function generateToken(user){ // jwt tokden generator
 }
 
 module.exports = {
-    Mutation: {
+    Mutation: { // GRAPHQL: queries to fetch data, mutations to modify server-side data
         async login(_, { username, password }){ // login
             const {errors, valid} = validateLoginInput(username, password );
 
