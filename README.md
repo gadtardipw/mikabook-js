@@ -3,6 +3,8 @@ Binus International 2023 Semester 4 Web Development Project by Almada Putra, Gad
 
 Usage:
 
+go to https://mikabook-js.netlify.app/  
+
 Register to make posts and likes
 
 Refresh page to see updates
