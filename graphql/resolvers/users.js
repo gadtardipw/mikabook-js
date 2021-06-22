@@ -9,7 +9,7 @@ const User = require("../../models/User");
 //res is response/result
 //most testing done on graphql playground
 
-function generateToken(user){ // jwt tokden generator
+function generateToken(user){ // jwt token generator
     return jwt.sign(
     {
     id: user.id,
@@ -97,5 +97,6 @@ module.exports = {
                 token
             };
         }
-    }
+    },
+
 }; 
